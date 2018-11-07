@@ -5,5 +5,6 @@ data class Endereco (
         val complemento: String,
         val bairro: String,
         val localidade: String,
-        val uf: String
+        val uf: String,
+        val cep: String
 )
