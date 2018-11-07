@@ -42,7 +42,7 @@ class PesquisaActivity : BaseActivity<PesquisaPresenter>(), PesquisaView {
     }
 
     override fun showError(error: String) {
-
+        Toast.makeText(this, error, Toast.LENGTH_LONG).show()
     }
 
     override fun showLoading() {
